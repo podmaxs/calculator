@@ -1,0 +1,23 @@
+calculator {
+	display:   block;
+	max-width: 500px;
+	border: 2px solid #ccc;
+	padding: 10px;
+	border-radius: 10px;
+
+	& .display{
+		min-height: 91px;
+		text-align: right;
+		background-color: #eee;
+		border-radius: 10px 10px 2px 2px;
+		margin-bottom: 10px;
+		font-size: 	   35px;
+		padding: 	   50px 10px 0px 0px;
+		overflow:      hidden;
+	}
+
+	& ion-col{
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+}

@@ -1,0 +1,12 @@
+<div class="display">
+	{{display}}
+</div>
+<ion-row>
+	<ion-col >
+		<button ion-button clear *ngFor="let number of [9,8,7,6,5,4,3,2,1,0]" (click)="addToQuery(number+'')"> {{number}} </button>
+	</ion-col>
+	<ion-col class="">
+		<button ion-button clear *ngFor="let operator of ['CE', '/', '*', '-', '+', '(', ')', '=']" (click)="addToQuery(operator+'')"> {{operator}} </button>
+
+	</ion-col>
+</ion-row>
