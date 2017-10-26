@@ -1,10 +1,13 @@
 ####Instalacion
-npm i
+
+  npm i
 
 ####Iniciar entorno dev
-ionic serve
+
+  ionic serve
 
 
 
 ####Instalacion de ionic
-npm i -g ionic cordova
+
+  npm i -g ionic cordova
